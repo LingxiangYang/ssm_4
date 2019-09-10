@@ -12,7 +12,7 @@ public class Employee implements Serializable {
     //员工关联的职位对象
     private Job job;          //职位
     private String name;      //名称
-    private String carsId;    //身份证
+    private String cardId;    //身份证
     private String address;   //地址
     private String postCode;  //邮政编码
     private String tel;       //电话
@@ -50,7 +50,7 @@ public class Employee implements Serializable {
     }
 
     public String getCarsId() {
-        return carsId;
+        return cardId;
     }
 
     public String getAddress() {
@@ -130,7 +130,7 @@ public class Employee implements Serializable {
     }
 
     public void setCarsId(String carsId) {
-        this.carsId = carsId;
+        this.cardId = carsId;
     }
 
     public void setAddress(String address) {
