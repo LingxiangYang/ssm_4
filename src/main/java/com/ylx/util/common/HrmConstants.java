@@ -6,7 +6,7 @@ public class HrmConstants {
     public static final String JOBTABLE = "job_inf";
     public static final String EMPLOYEETABLE = "employee_inf";
     public static final String NOTICETABLE = "notice_inf";
-    public static final String DOUCUMENTTABLE = "doucument_inf";
+    public static final String DOCUMENTTABLE = "doucument_inf";
     //登陆
     public static final String LOGIN = "loninForm";
     //用户的session对象
